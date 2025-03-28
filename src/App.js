@@ -5,9 +5,9 @@ export function App() {
   return (
     <div>
         <div>Personajes de Mario Bros</div>
-        <Tarjeta/>
-        <Tarjeta/>
-        <Tarjeta/>
+        <Tarjeta nombre="Mario" colorFavorito="Rojo"/>
+        <Tarjeta nombre="Luigi" colorFavorito="Verde"/>
+        <Tarjeta nombre="Peach" colorFavorito="Rosa"/>
     </div>
   )
 }

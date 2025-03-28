@@ -1,9 +1,10 @@
 import React from 'react'
 
-export function Tarjeta() {
+export function Tarjeta( props ) {
   return (
     <div>
-        Tarjeta de Personaje
+      <div>Nombre del Personaje: {props.nombre}</div>
+      <div>color Favorito: {props.coloFavorito}</div>
     </div>
   )
 }
